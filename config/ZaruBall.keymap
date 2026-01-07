@@ -14,7 +14,7 @@
 #define LOWER    2
 #define RAISE    3
 #define ADJUST   4
-#define SCROLL   5
+#define SCROLL   2
 
 // スクロール量の設定
 
@@ -147,7 +147,7 @@
 &kp TAB     &kp Q       &kp W   &kp E         &kp R         &kp T                          &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                     &kp Y            &kp U   &kp I      &kp O    &kp P      &kp NON_US_BACKSLASH
 &kp CAPS    &kp A       &kp S   &kp D         &kp F         &kp G        &lt 4 HOME        &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp PAGE_UP      &kp H            &kp J   &kp K      &kp L    &kp ENTER  &kp BACKSPACE
 &kp LSHFT   &kp Z       &kp X   &kp C         &kp V         &kp B        &kp GRAVE         &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp PAGE_DOWN    &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH   &kp RIGHT_SHIFT
-&td2        &kp C_MUTE          &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &kp LEFT_SHIFT                                                            &lt 2 RIGHT_ALT  &lt 3 BACKSPACE                                         &lt 5 RIGHT_CONTROL
+&td2        &kp C_MUTE          &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &kp LEFT_SHIFT                                                            &lt 2 RIGHT_ALT  &lt 3 BACKSPACE                                         &lt SCROLL BACKSLASH
             >;
         };
 
@@ -201,17 +201,7 @@
 
         // Extra layer can be added in ZMK STUDIO
 
-        scroll_layer {
-            display-name = "Scroll";
-            sensor-bindings = <&scroll_down_up>;
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans                                      &trans  &trans                                  &trans
-            >;
-        };
+        extra1 { status = "reserved"; };
 
         extra2 { status = "reserved"; };
     };
