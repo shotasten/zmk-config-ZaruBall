@@ -156,8 +156,8 @@
             sensor-bindings = <&scroll_down_up>;
             bindings = <
 &to_layer_0 ESC     &to_layer_0 N1  &to_layer_0 N2  &to_layer_0 N3  &to_layer_0 N4  &to_layer_0 N5                     &trans  &trans  &trans  &trans                     &to_layer_0 N6  &to_layer_0 N7  &to_layer_0 N8  &to_layer_0 N9      &to_layer_0 N0     &to_layer_0 DEL
-&to_layer_0 TAB     &to_layer_0 Q   &to_layer_0 W   &to_layer_0 E   &to_layer_0 R   &to_layer_0 T                      &trans  &trans  &trans  &trans                     &to_layer_0 Y   &to_layer_0 U   &mo 5           &to_layer_0 P       &to_layer_0 O      &to_layer_0 NON_US_BACKSLASH
-&to_layer_0 CAPS    &to_layer_0 A   &mkp RCLK       &mkp MCLK       &mkp LCLK       &msc SCRL_UP    &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mkp LCLK       &mkp MCLK       &mkp RCLK           &to_layer_0 ENTER  &to_layer_0 BACKSPACE
+&to_layer_0 TAB     &to_layer_0 Q   &to_layer_0 W   &to_layer_0 E   &to_layer_0 R   &to_layer_0 T                      &trans  &trans  &trans  &trans                     &to_layer_0 Y   &to_layer_0 U   &to_layer_0 I   &to_layer_0 P       &to_layer_0 O      &to_layer_0 NON_US_BACKSLASH
+&to_layer_0 CAPS    &to_layer_0 A   &mkp RCLK       &mkp MCLK       &mkp LCLK       &msc SCRL_UP    &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mkp LCLK       &mo 5           &mkp RCLK           &mkp MCLK          &to_layer_0 BACKSPACE
 &to_layer_0 LSHIFT  &to_layer_0 Z   &to_layer_0 X   &mkp MB4        &mkp MB5        &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &mkp MB4        &mkp MB5        &to_layer_0 PERIOD  &to_layer_0 SLASH  &lt SCROLL BACKSLASH
 &trans              &trans                          &trans          &trans          &trans          &trans                                               &trans           &trans                                                                                 &trans
             >;
@@ -171,7 +171,7 @@
 &trans  &kp F11           &kp F12         &kp UP_ARROW    &trans                &trans                                   &trans  &trans  &trans  &trans                  &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp UP_ARROW      &trans           &trans         &trans
 &trans  &kp LC(UP_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans                &trans             &trans  &trans  &trans  &trans    &bt BT_SEL 0  &kp LEFT_SHIFT          &kp LEFT_ARROW           &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp SPACE      &trans
 &trans  &kp LC(DOWN)      &trans          &kp LS(LG(S))   &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))  &pw                &trans  &trans  &trans  &trans    &bt BT_SEL 1  &kp RIGHT_CONTROL       &kp C_PREVIOUS           &kp C_PLAY_PAUSE  &kp C_NEXT       &kp RIGHT_ALT  &trans
-&trans  &trans                            &kp ENTER       &kp C_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP                                      &trans        &trans                                                                                             &kp DEL
+&trans  &trans                            &kp ENTER       &kp C_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP                                      &trans        &bt BT_SEL 1                                                                                       &kp DEL
             >;
         };
 
@@ -183,7 +183,7 @@
 &trans  &trans        &kp N7        &kp N8        &kp NUMBER_9  &kp ASTERISK                   &trans  &trans  &trans  &trans                     &kp AT_SIGN  &kp GRAVE       &kp LEFT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES
 &trans  &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &trans           &trans  &trans  &trans  &trans    &msc SCRL_LEFT   &kp EQUAL    &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp SEMICOLON          &kp COLON
 &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &trans           &trans  &trans  &trans  &trans    &msc SCRL_RIGHT  &kp MINUS    &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE       &trans                 &trans
-&trans  &trans                      &kp N0        &kp DOT       &kp ENTER     &kp BACKSPACE                                      &trans           &trans                                                                                          &bt BT_PRV
+&trans  &trans                      &kp N0        &kp DOT       &kp ENTER     &kp BACKSPACE                                      &bt BT_SEL 0     &trans                                                                                          &bt BT_PRV
             >;
         };
 
