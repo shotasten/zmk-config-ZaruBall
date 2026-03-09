@@ -151,7 +151,7 @@
 &trans  &to_layer_0 N1  &to_layer_0 N2  &to_layer_0 N3  &to_layer_0 N4  &to_layer_0 N5                     &trans  &trans  &trans  &trans                     &to_layer_0 N6  &to_layer_0 N7  &to_layer_0 N8  &to_layer_0 N9      &to_layer_0 N0     &to_layer_0 DEL
 &trans  &to_layer_0 Q   &to_layer_0 W   &to_layer_0 E   &to_layer_0 R   &to_layer_0 T                      &trans  &trans  &trans  &trans                     &to_layer_0 Y   &to_layer_0 U   &to_layer_0 I   &to_layer_0 P       &to_layer_0 O      &to_layer_0 NON_US_BACKSLASH
 &trans  &to_layer_0 A   &trans          &trans          &trans          &trans          &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &msc SCRL_LEFT   &msc SCRL_UP    &mkp LCLK       &mo 2           &mkp RCLK           &mkp MCLK          &to_layer_0 BACKSPACE
-&trans  &to_layer_0 Z   &to_layer_0 X   &trans          &trans          &trans          &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &mkp MB4        &mkp MB5        &to_layer_0 PERIOD  &to_layer_0 SLASH  &lt SCROLL BACKSLASH
+&trans  &to_layer_0 Z   &to_layer_0 X   &trans          &trans          &trans          &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &msc SCRL_RIGHT  &msc SCRL_DOWN  &mkp MB4        &mkp MB5        &to_layer_0 PERIOD  &to_layer_0 SLASH  &trans
 &trans  &trans                          &trans          &trans          &trans          &trans                                               &trans           &trans                                                                                 &trans
             >;
         };
