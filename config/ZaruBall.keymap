@@ -139,7 +139,7 @@
         m_rf_ralt: m_rf_ralt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            tap-ms = <125>; 
+            tap-ms = <75>; 
             bindings = <&kp RALT>;
         };
     };
